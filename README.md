@@ -191,3 +191,15 @@ Vamos analisar e explicar o código linha por linha:
 22. **`} while (opcao != 5);`**: Finaliza o loop quando a opção escolhida pelo usuário é sair.
 
 Este é um resumo simplificado do código, destacando os principais elementos e funcionalidades.
+
+#  O polimorfismo por interface é uma abordagem que permite que objetos de classes diferentes sejam tratados de maneira uniforme, desde que implementem a mesma interface. Essa técnica oferece flexibilidade e desacoplamento, pois as interfaces definem contratos, especificando métodos que as classes que as implementam devem fornecer. Isso promove um baixo acoplamento, tornando o código mais flexível em termos de hierarquia de classes.
+
+Uma vantagem significativa do polimorfismo por interface é a capacidade de uma classe implementar várias interfaces. Isso é útil quando diferentes comportamentos precisam ser incorporados a uma única classe, possibilitando maior modularidade e reutilização de código.
+
+Em termos de manutenção e evolução do sistema, o polimorfismo por interface demonstra sua eficácia. Mudanças nas interfaces não afetam as classes existentes, desde que essas classes continuem a implementar a interface. Isso facilita a evolução do sistema sem impactar a implementação existente.
+
+Outro ponto a ser considerado é o princípio da composição sobre herança, favorecido pelo polimorfismo por interface. Essa abordagem promove a construção de classes complexas combinando funcionalidades através de interfaces, ajudando a evitar os problemas associados à herança excessiva.
+
+O uso de polimorfismo por interface é especialmente adequado para ambientes onde a flexibilidade, a manutenção e a evolução são cruciais, como em grandes sistemas corporativos e em projetos de longa duração. Contratos explícitos estabelecidos pelas interfaces tornam claro o que é esperado de cada classe que as implementa.
+
+Em comparação com o polimorfismo por herança, o polimorfismo por interface oferece uma abordagem mais flexível e modular. No entanto, a escolha entre essas abordagens dependerá do contexto específico do projeto e dos requisitos do sistema. Em muitos casos, uma combinação equilibrada de ambas as técnicas pode ser a solução mais apropriada, permitindo a criação de sistemas robustos e de fácil manutenção.
